@@ -75,20 +75,37 @@ print(gcd(101, 10))  # Expected output: 1
 - Make sure to select your `<ucid>-gcd-feature` branch as the source and the original repository’s `main` branch as the destination.
 - Submit the pull request.
 
+When choosing repositories and branches, the GitHub screen will look something like:
+
+```
+base repository: [njit-prof-bill/source-code-man...][base: main] <- [head repository: iambillmccann/source-code-man...][compare: wfm8-gdc-feature]
+```
+
 ---
 
 ## Naming Conventions
 To ensure your submission is automatically checked, you must follow these naming conventions:
 1. Your Python file must be placed in the `students_submissions/` directory.
-2. The file must be named `gcd_<GitHubUsername>.py`, where `<GitHubUsername>` is your actual GitHub username (e.g., `gcd_johndoe.py`).
+2. The file must be named `gcd_<ucid>.py`, where `<ucid>` is your actual GitHub username (e.g., `gcd_wfm8.py`).
 3. Your file must contain a function named `gcd(a: int, b: int) -> int`.
 
 If you do not follow these conventions, your submission will not be automatically tested, and you may be asked to resubmit.
 
 ---
 
+## Grading Rubric
+
+On point for each of the following:
+- Repo cloned and branched
+- Create PR that will merge automatically
+- Function has no loops
+- Code passes basic tests
+- Code passes edge cases
+
+---
+
 ## Submission Deadline
-- Your pull request must be submitted by [INSERT DEADLINE DATE AND TIME].
+- Your pull request must be submitted by Sunday 2/1/2025 at 11:59.
 
 ---
 
