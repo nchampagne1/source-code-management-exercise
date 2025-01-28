@@ -30,7 +30,7 @@ In this exercise, you will demonstrate your understanding of Git and GitHub by f
   - Example: If your ucid is `wfm8`, name your file `gcd_wfm8.py`.
 
 ### Step 5: Implement the `gcd` Function
-- In your `gcd_<ucid>.py` file, a greatest common divisor function. Use this exact function signature: `def gcd(a: int, b: int) -> int:`. DO NOT USE LOOPS in your function. Be sure to consider edge cases, like prime numbers, negative numbers, etc.
+- In your `gcd_<ucid>.py` file, a greatest common divisor function. Use this exact function signature: `def gcd(a: int, b: int) -> int:`. DO NOT USE LOOPS in your function. Be sure to consider edge cases, like prime numbers, negative numbers, etc. Have errors print an informative message and return `None`.
   ```python
   def gcd(a: int, b: int) -> int:
       """
