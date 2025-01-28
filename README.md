@@ -10,7 +10,7 @@ In this exercise, you will demonstrate your understanding of Git and GitHub by f
 ## Instructions
 
 ### Step 1: Fork the Repository
-- Fork this repository to your own GitHub account by clicking the **Fork** button in the upper right corner.
+- Fork this repository to your own GitHub account by clicking the **Fork** button in the upper right corner. *Note* if you change the name of your repository, then you will need to use your repo name instead of `source-code-management-exercise` when following the examples below.
 
 ### Step 2: Clone Your Fork
 - Clone the forked repository to your local machine. Open your terminal and run the following command:
@@ -19,18 +19,18 @@ In this exercise, you will demonstrate your understanding of Git and GitHub by f
   ```
 
 ### Step 3: Create a New Branch
-- Create a new branch to work on your feature. Run the following commands:
+- Create a new branch to work on your feature. Name your branch `<ucid>-gcd-feature` where <ucid> is your student ucid (`wfm8`). Example commands:
   ```bash
   cd source-code-management-exercise
-  git checkout -b gcd-feature
+  git checkout -b <ucid>-gcd-feature
   ```
 
 ### Step 4: Create Your Submission File
-- Inside the `students_submissions/` directory, create a new Python file named `gcd_<GitHubUsername>.py`. Replace `<GitHubUsername>` with your actual GitHub username. 
+- Inside the `students_submissions/` directory, create a new Python file named `gcd_<GitHubUsername>.py`. Replace `<GitHubUsername>` with your actual GitHub username.
   - Example: If your GitHub username is `johndoe`, name your file `gcd_johndoe.py`.
-  
+
 ### Step 5: Implement the `gcd` Function
-- In your `gcd_<GitHubUsername>.py` file, implement the following function:
+- In your `gcd_<GitHubUsername>.py` file, a greatest common divisor function. Use this exact function signature: `def gcd(a: int, b: int) -> int:`. DO NOT USE LOOPS in your function. Be sure to consider edge cases, like prime numbers, negative numbers, etc.
   ```python
   def gcd(a: int, b: int) -> int:
       """
@@ -46,6 +46,7 @@ In this exercise, you will demonstrate your understanding of Git and GitHub by f
 Example:
 ```python
 def gcd(a: int, b: int) -> int:
+    # This uses a loop, so DO NOT COPY AND PASTE this example
     while b:
         a, b = b, a % b
     return a
@@ -88,7 +89,7 @@ If you do not follow these conventions, your submission will not be automaticall
 
 ## Submission Deadline
 - Your pull request must be submitted by [INSERT DEADLINE DATE AND TIME].
-  
+
 ---
 
 ### Notes:
