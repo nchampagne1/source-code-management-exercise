@@ -1,7 +1,3 @@
-Here are the instructions you can copy and paste into both the `README.md` file in the repository and the email you send to the class.
-
----
-
 # Source Code Management Exercise
 
 ## Objective
