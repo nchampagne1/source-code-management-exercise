@@ -26,11 +26,11 @@ In this exercise, you will demonstrate your understanding of Git and GitHub by f
   ```
 
 ### Step 4: Create Your Submission File
-- Inside the `students_submissions/` directory, create a new Python file named `gcd_<GitHubUsername>.py`. Replace `<GitHubUsername>` with your actual GitHub username.
-  - Example: If your GitHub username is `johndoe`, name your file `gcd_johndoe.py`.
+- Inside the `students_submissions/` directory, create a new Python file named `gcd_<ucid>.py`. Replace `<ucid>` with your student ucid.
+  - Example: If your ucid is `wfm8`, name your file `gcd_wfm8.py`.
 
 ### Step 5: Implement the `gcd` Function
-- In your `gcd_<GitHubUsername>.py` file, a greatest common divisor function. Use this exact function signature: `def gcd(a: int, b: int) -> int:`. DO NOT USE LOOPS in your function. Be sure to consider edge cases, like prime numbers, negative numbers, etc.
+- In your `gcd_<ucid>.py` file, a greatest common divisor function. Use this exact function signature: `def gcd(a: int, b: int) -> int:`. DO NOT USE LOOPS in your function. Be sure to consider edge cases, like prime numbers, negative numbers, etc.
   ```python
   def gcd(a: int, b: int) -> int:
       """
@@ -60,19 +60,19 @@ print(gcd(101, 10))  # Expected output: 1
 ### Step 6: Commit Your Changes
 - Once your function is implemented, stage and commit your changes:
   ```bash
-  git add students_submissions/gcd_<GitHubUsername>.py
+  git add students_submissions/gcd_<ucid>.py
   git commit -m "Implemented GCD function"
   ```
 
 ### Step 7: Push the Branch to GitHub
-- Push your changes to the `gcd-feature` branch in your forked repository:
+- Push your changes to the `<ucid>-gcd-feature` branch in your forked repository:
   ```bash
-  git push origin gcd-feature
+  git push origin <ucid>-gcd-feature
   ```
 
 ### Step 8: Create a Pull Request
 - Go to your forked repository on GitHub and click the **Compare & pull request** button.
-- Make sure to select your `gcd-feature` branch as the source and the original repository’s `main` branch as the destination.
+- Make sure to select your `<ucid>-gcd-feature` branch as the source and the original repository’s `main` branch as the destination.
 - Submit the pull request.
 
 ---
